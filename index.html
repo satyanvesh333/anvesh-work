@@ -2,6 +2,7 @@
 <html>
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="test.js"></script>
+<script type="text/javascript" src="external.json"></script>
 <link rel="stylesheet" type="text/css" href="satya.css">
 
 <body>
@@ -10,10 +11,12 @@
     First Name: <input type="text" ng-model="firstName"><br>
     Last Name: <input type="text" ng-model="lastName"><br>
     <br>
-    Full Name: {{firstName + " " + lastName}}
-
+    Full Name: {{firstName + " " + lastName}}<br><br>
+    {{myWelcome}}<br><br>
 </div>
 <div><a href="one.html">satya</a></div>
 <div><a href="satyanvesh.jpg">image</a></div>
 </body>
+
+
 </html>
